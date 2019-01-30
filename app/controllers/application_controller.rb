@@ -22,8 +22,8 @@ class ApplicationController < Sinatra::Base
     actor = Actor.find_or_create_by(name: params[:name])
     params[:film].each do |f|
       if f[:title] != ""
-        Film.create(title: params[:title]
-                    year: params[:year]
+        Film.create(title: params[:title],
+                    year: params[:year],
                     genre: params[:genre])
       end
     end
