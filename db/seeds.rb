@@ -1,10 +1,10 @@
 Actor.destroy_all
 Film.destroy_all
 
-tom = Actor.find_or_create_by("Tom Cruise")
-bruce = Actor.find_or_create_by("Bruce Willis")
-angie = Actor.find_or_create_by("Angelina Jolie")
-anne = Actor.find_or_create_by("Anne Hathaway")
+tom = Actor.find_or_create_by(name: "Tom Cruise")
+bruce = Actor.find_or_create_by(name: "Bruce Willis")
+angie = Actor.find_or_create_by(name: "Angelina Jolie")
+anne = Actor.find_or_create_by(name: "Anne Hathaway")
 
 mi = Film.find_or_create_by(title: "Mission Impossible", year: "1996", genre: "Action")
 topgun = Film.find_or_create_by(title: "Top Gun", year: "1986", genre: "Action")
