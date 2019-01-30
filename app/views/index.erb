@@ -1,0 +1,11 @@
+<div id="actor_dropdown">
+<form action="actors/:id" method="GET">
+  <label for="actor">Actor:</label>
+  <select name="actor">
+    <% @actors.each do |actor| %>
+    <option value="<%= actor.id %>"><%= actor.name %></option>
+    <% end %>
+  </select>
+  <input type="submit" value="Submit">
+</form>
+</div>
