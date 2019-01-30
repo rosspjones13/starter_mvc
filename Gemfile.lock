@@ -13,10 +13,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (9.0.0)
-<<<<<<< HEAD
-=======
     byebug (10.0.2)
->>>>>>> seed_data
     coderay (1.1.2)
     concurrent-ruby (1.1.4)
     domain_name (0.5.20180417)
@@ -68,10 +65,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
-<<<<<<< HEAD
-=======
   byebug
->>>>>>> seed_data
   pry
   rack
   rake
